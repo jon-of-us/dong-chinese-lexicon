@@ -29,9 +29,6 @@ for (let char in etymologies) {
             pinyin: etymology.pinyin,
             searchablePinyin: etymology.searchablePinyin
         };
-        if (!entry.pinyin) {
-            console.log(entry);
-        }
         entries.push(entry);
         simpDict[char] = [entry];
         tradDict[char] = [entry];
